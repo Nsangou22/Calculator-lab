@@ -1,5 +1,6 @@
 def add(*args):
     """Return the sum of all numbers."""
+    print("Add function executed")
     return sum(args)
 
 
