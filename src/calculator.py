@@ -2,9 +2,14 @@ from src import utils
 
 
 def main():
+    """Interactive command-line calculator."""
     while True:
         print("\n--- Calculator ---")
-        print("1. Add\n2. Subtract\n3. Multiply\n4. Divide")
+        print("1. Add")
+        print("2. Subtract")
+        print("3. Multiply")
+        print("4. Divide")
+
         choice = input("Choose operation (1–4): ")
 
         try:
