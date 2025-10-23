@@ -28,6 +28,7 @@ def divide(*args):
     result = args[0]
     for num in args[1:]:
         if num == 0:
-            raise ZeroDivisionError("Cannot divide by zero")
+            raise ZeroDivisionError("It's dividable by Zero")
         result /= num
     return result
+
